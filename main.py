@@ -1,4 +1,5 @@
 """This code send an SMS to user if rainy weather"""
+# TODO: Go back to lesson 316 to upload code to PythonAnywhere (Note: main.py already uploaded)
 import requests
 from twilio.rest import Client
 
