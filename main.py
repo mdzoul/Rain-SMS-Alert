@@ -1,5 +1,4 @@
 """This code send an SMS to user if rainy weather"""
-# TODO: Go back to lesson 316 to upload code to PythonAnywhere (Note: main.py already uploaded)
 import requests
 from twilio.rest import Client
 
@@ -28,7 +27,7 @@ if WILL_RAIN:
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
     message = client.messages.create(
         body="It's going to rain today. Remember to bring an umbrella! ☔️",
-        from_="+15017122661",  # TODO: Change this number once account is unrestricted
+        from_="+19034833039",
         to="+6582289433"
     )
     print(message.status)
